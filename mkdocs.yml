@@ -1,0 +1,36 @@
+site_name: "Mountaineer Area Robotics Team 2614 Wiki"
+site_description: "Documentation for our team's FRC robot code, hardware, and setup guides."
+site_url: "https://your-team.github.io/team-wiki/"  ## UPDATE THIS
+repo_url: "https://github.com/your-team/team-wiki"  ## UPDATE THIS
+repo_name: "team-wiki"
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Overview: getting-started/index.md
+      - Installing Tools: getting-started/installing-tools.md
+      - Programming Tutorials: getting-started/programming-tutorials.md
+  - Hardware:
+      - Overview: hardware/index.md
+      - Robot 2025: hardware/robot-2025.md
+  - Software:
+      - Overview: software/index.md
+      - Repositories: software/repos.md
+  - Team Practices: team-practices.md
+  - FAQ: faq.md
