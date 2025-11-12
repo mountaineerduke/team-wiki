@@ -1,7 +1,7 @@
 site_name: "Mountaineer Area Robotics Team 2614 Wiki"
 site_description: "Documentation for our team's FRC robot code, hardware, and setup guides."
-site_url: "https://your-team.github.io/team-wiki/"  ## UPDATE THIS
-repo_url: "https://github.com/your-team/team-wiki"  ## UPDATE THIS
+site_url: "https://mountaineerduke.github.io/team-wiki/"
+repo_url: "https://github.com/mountaineerduke/team-wiki"
 repo_name: "team-wiki"
 theme:
   name: material
